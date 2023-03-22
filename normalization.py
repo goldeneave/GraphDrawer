@@ -48,6 +48,6 @@ def sort_csv_files(folder_path, output_folder_path):
                 # Write the sorted rows to the output CSV file
                 writer.writerows(rows)
 
-folder_path = "C:/Users/张义鑫/PycharmProjects/ImageFeatureExtract/result/EngNum"
-output_folder_path = "D:/all_about_python/scatterDrawer/csv"
+folder_path = "ImageFeatureExtract/result/EngNum"
+output_folder_path = "scatterDrawer/csv"
 sort_csv_files(folder_path, output_folder_path)
